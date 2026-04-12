@@ -1,0 +1,236 @@
+
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #1a0dab;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px dashed #1a0dab;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    padding: 10px 0;
+}
+
+
+nav {
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #1a0dab;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav a:hover, nav a:active {
+    background-color: #1a0dab;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #e6e6e6; /* light grey like your screenshot */
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;   /* center the images */
+    align-items: center;
+    gap: 40px;                 /* space between images */
+    padding: 40px;
+}
+
+.image-row img {
+    width: 250px;             
+    height: 350px;             
+    object-fit: cover;         
+   border-radius: 5px;        
+}
+
+
+nav img.logo {
+    width: 25px;    
+    height: auto;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 5px;
+}
+
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.schedule-card {
+    background: white;
+    border-left: 6px solid #1a0dab;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.schedule-card h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #1a0dab;
+}
+
+.schedule-card p {
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+/* TICKETS PAGE */
+.ticket-list {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.ticket-list li {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-left: 6px solid #4CAF50;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    font-size: 1.2rem;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 2.2rem;
+    color: #4CAF50;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+    transform: scale(1.2);
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white; 
+    padding: 25px;
+    border-radius: 8px;
+    color: #333;
+    border-left: 6px solid #4CAF50; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1a0dab; 
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; 
+    color: #333;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #1a0dab; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 13, 171, 0.3);
+}
+
+.contact-form button {
+    background-color: #1a0dab; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact-form button:hover {
+    background-color: #4CAF50; 
+}

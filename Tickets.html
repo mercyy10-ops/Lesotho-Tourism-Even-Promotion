@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Tickets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <section id="header">
+        <div class="logo">
+            <img src="./Images/logo.png" alt="Event Logo">
+        </div>
+        <h1>Lesotho's Local Musical Event</h1>
+    </section>
+</header>
+
+<nav>
+    <a href="index.html">Home🏠</a>
+    <a href="about.html">About</a>
+    <a href="programme.html">Programme</a>
+    <a href="Tickets.html">Registration</a>
+    <a href="Contact.html">Contact</a>
+</nav>
+
+<main>
+<section>
+    <h2>Ticket Pricing</h2>
+
+    <p>Choose the ticket option that suits you best. Prices are listed below:</p>
+
+    <ul class="ticket-list">
+        <li><strong>Pre-sale:</strong> M100</li>
+        <li><strong>General:</strong> M150</li>
+        <li><strong>At the Gate:</strong> M200</li>
+        <li><strong>VIP:</strong> M400</li>
+        <li><strong>VVIP:</strong> M800</li>
+    </ul>
+</section>
+<section class="form">
+    <h2>Secure Your Spot</h2>
+    <p>Register now to attend the Lesotho Local Musical Event.</p>
+
+    <form action="submit_form.php" method="POST" class="contact-form">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="ticket">Ticket Type:</label>
+        <select id="ticket" name="ticket" required>
+            <option value="">-- Select Ticket --</option>
+            <option value="Pre-sale">Pre-sale - M100</option>
+            <option value="general">General – M150</option>
+            <option value="At the gate">At The Gate - M200</option>
+            <option value="vip">VIP – M400</option>
+            <option value="VVIP">VVIP – M800</option>
+        </select>
+
+        <label for="quantity">Number of Tickets:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <button type="submit">Register Now</button>
+    </form>
+</section>
+
+</main>
+<footer>
+    <nav>
+        <a href="index.html">Homepage</a>
+        <a href="about.html">About</a>
+        <a href="programme.html">Programme</a>
+        <a href="Tickets.html">Registration</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <p>&copy; 2026 Lesotho's Local Musical Event</p>
+</footer>
+</body>
+</html>
